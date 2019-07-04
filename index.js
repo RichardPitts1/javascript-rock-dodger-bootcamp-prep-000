@@ -102,7 +102,7 @@ function endGame() {
       {rock.remove()
       });
   document.removeEventListener('keydown',moveDodger);
-  return alert('YOU LOSE!');
+  return alert('You Lost!!!');
 }
 
 function moveDodger(e) {
