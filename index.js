@@ -157,6 +157,6 @@ function start() {
   START.style.display = 'none'
 
   gameInterval = setInterval(function() {
-    createRock(Math.floor(Math.random() *  (GAME_WIDTH - 20)))
+    createRock(Math.floor(Math.random() *  (GAME_WIDTH - 120)))
   }, 1000)
 }
